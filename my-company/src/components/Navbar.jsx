@@ -7,10 +7,12 @@ function Navbar() {
         backgroundColor: '#333',
         padding: '10px',
         display: 'flex',
-        gap: '20px'
+        gap: '20px',
+        justifyContent:'center'
+
       }}
     >
-      <Link style={{ color: '#fff', textDecoration: 'none' }} to="/">Home</Link>
+      <Link style={{ color: '#fff', textDecoration: 'none',  }} to="/">Home</Link>
       <Link style={{ color: '#fff', textDecoration: 'none' }} to="/about">About</Link>
       <Link style={{ color: '#fff', textDecoration: 'none' }} to="/services">Services</Link>
       <Link style={{ color: '#fff', textDecoration: 'none' }} to="/contact">Contact</Link>
